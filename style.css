@@ -37,7 +37,8 @@ main {
 }
 
 .info {
-
+    margin-inline: .8rem;
+    
     div {
         margin-bottom: 3.2rem;
     }
