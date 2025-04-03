@@ -158,6 +158,17 @@ main {
     }
 }
 
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none;
+}
+
+button:hover{
+    background: var(--water-leaf);
+    cursor: pointer;
+    transition: .3s;
+}
+
 @media(min-width: 920px) {
     main{
         display: flex;
@@ -172,18 +183,13 @@ main {
         width: 100%;
     }
 
-    input::-webkit-inner-spin-button,
-    input::-webkit-outer-spin-button {
-        display: none;
-    }
-
   .info {
     .tip {
         div{
             grid-template-columns: repeat(3, 1fr);
 
             button:hover{
-                background: var(--topaz);
+                background: var(--water-leaf);
                 cursor: pointer;
                 transition: .3s;
             }
